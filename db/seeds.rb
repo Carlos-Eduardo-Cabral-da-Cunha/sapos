@@ -10230,3 +10230,13 @@ City.create(:name =>"Tupiratins",:state =>State.find_by_code("TO"))
 City.create(:name =>"Venus",:state =>State.find_by_code("TO"))
 City.create(:name =>"Wanderlandia",:state =>State.find_by_code("TO"))
 City.create(:name =>"Xambioa",:state =>State.find_by_code("TO"))
+
+Student.create({ :name => 'aluno_criado1', :cpf => 'cpf_criado1', :birth_country_id => 30 })
+Student.create({ :name => 'aluno_criado2', :cpf => 'cpf_criado2', :birth_country_id => 30, :birth_state_id => 19, :birth_city_id => 6807 })
+Student.create({ :name => 'aluno_criado3', :cpf => 'cpf_criado3' })
+Student.create({ :name => 'aluno_criado4', :cpf => 'cpf_criado4', :birth_city_id => 6807 })
+Student.create({ :name => 'aluno_criado5', :cpf => 'cpf_criado5', :birth_state_id => 19, :birth_city_id => 6807 })
+Student.create({ :name => 'aluno_criado6', :cpf => 'cpf_criado6', :birth_state_id => 19 })
+Student.create({ :name => 'aluno_criado7', :cpf => 'cpf_criado7', :birth_country_id => 40 })
+
+

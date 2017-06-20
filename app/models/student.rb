@@ -21,7 +21,7 @@ class Student < ActiveRecord::Base
   validates :name, :presence => true
   validates :cpf, :presence => true, :uniqueness => true
 
-  before_save :set_birth_state_by_birth_city
+#  before_save :set_birth_state_by_birth_city
 
   def enrollments_number
     self.enrollments.collect { |enrollment| 
